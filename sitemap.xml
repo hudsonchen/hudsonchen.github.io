@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://hudsonchen.github.io/docs/example-doc/chapter-1/</loc>
+    <loc>https://hudsonchen.github.io/docs/example-doc/chapter-1/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-1/</loc>
+    <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-1/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/docs/example-doc/chapter-2/</loc>
+    <loc>https://hudsonchen.github.io/docs/example-doc/chapter-2/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2/</loc>
+    <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/docs/</loc>
+    <loc>https://hudsonchen.github.io/docs/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/docs/example-doc/</loc>
+    <loc>https://hudsonchen.github.io/docs/example-doc/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/docs/example-doc/nested-chapter/</loc>
+    <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/</loc>
+    <loc>https://hudsonchen.github.io/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://hudsonchen.github.io/authors/</loc>
+    <loc>https://hudsonchen.github.io/authors/</loc>
   </url><url>
-    <loc>http://hudsonchen.github.io/categories/</loc>
+    <loc>https://hudsonchen.github.io/categories/</loc>
   </url><url>
-    <loc>http://hudsonchen.github.io/authors/example-author/</loc>
+    <loc>https://hudsonchen.github.io/authors/example-author/</loc>
   </url><url>
-    <loc>http://hudsonchen.github.io/authors/hugo-authors/</loc>
+    <loc>https://hudsonchen.github.io/authors/hugo-authors/</loc>
   </url><url>
-    <loc>http://hudsonchen.github.io/posts/</loc>
+    <loc>https://hudsonchen.github.io/posts/</loc>
   </url><url>
-    <loc>http://hudsonchen.github.io/tags/</loc>
+    <loc>https://hudsonchen.github.io/tags/</loc>
   </url>
 </urlset>

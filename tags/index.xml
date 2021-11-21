@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zonghao Chen</title>
-    <link>http://hudsonchen.github.io/tags/</link>
+    <link>https://hudsonchen.github.io/tags/</link>
     <description>Recent content in Tags on Zonghao Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Zonghao Chen
-</copyright><atom:link href="http://hudsonchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+</copyright><atom:link href="https://hudsonchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
