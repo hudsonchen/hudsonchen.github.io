@@ -7,5 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2022 WANG Chucheng
 </copyright><atom:link href="https://hudsonchen.github.io/authors/example-author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Author</title>
+      <link>https://hudsonchen.github.io/authors/example-author/_index-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/authors/example-author/_index-2/</guid>
+      <description>About I am a first year Ph.D. candidate at the Center of Foundational Artificial Intelligence of University College London, supervised by François-Xavier Briol and Arthur Gretton.
+My research interests center around probabilistic modelling and causal inference. I am generally interested in statistical machine learning. More specifically, I am currently working on approximate inference, kernel methods, graphical models, etc.
+Bio I obtained the bachelor&amp;rsquo;s degree from the Department of Electronic Engineering
+I have worked as a research assistant at Oxford Applied and Theoretical Machine Learning Group (OATML), advised by Yarin Gal. I have also worked as a research assistant at Statistics and Machine Learning group at the Hong Kong University of Science and Technology (HKUST), advised by Tong Zhang.</description>
+    </item>
+    
   </channel>
 </rss>

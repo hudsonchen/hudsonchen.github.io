@@ -10,11 +10,29 @@
     <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hudsonchen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 1</title>
+      <link>https://hudsonchen.github.io/docs/example-doc/chapter-1-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/example-doc/chapter-1-2/</guid>
+      <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
       <link>https://hudsonchen.github.io/docs/example-doc/chapter-1/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hudsonchen.github.io/docs/example-doc/chapter-1/</guid>
       <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-1-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-1-2/</guid>
+      <description>&lt;p&gt;This is chapter 1 of nested chapter.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,6 +46,15 @@
     
     <item>
       <title>Chapter 2</title>
+      <link>https://hudsonchen.github.io/docs/example-doc/chapter-2-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/example-doc/chapter-2-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
       <link>https://hudsonchen.github.io/docs/example-doc/chapter-2/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -37,11 +64,87 @@
     
     <item>
       <title>Chapter 2</title>
+      <link>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
       <link>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2/</guid>
       <description>&lt;p&gt;This is chapter 2 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Example Doc</title>
+      <link>https://hudsonchen.github.io/docs/example-doc/_index-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/example-doc/_index-2/</guid>
+      <description>This is the root of example doc.
+Duis vel leo nec mi convallis sodales Sed efficitur nibh sed euismod dictum. Donec posuere, nisl a egestas dignissim, risus magna placerat tortor, quis tincidunt ipsum erat at nunc. Cras consectetur ex eget tortor fermentum mattis. Nullam sodales sed purus eget ornare. Vestibulum aliquam cursus odio vitae placerat. Etiam vel pharetra diam. Morbi molestie varius tincidunt. Morbi molestie tortor vitae metus venenatis, ut fermentum nisl luctus. Aenean at condimentum lorem, rhoncus dapibus nibh. Donec et dui consequat ipsum ultrices tristique vitae vitae est.
+Sed efficitur ante a tortor euismod In ornare ultricies sapien in tincidunt. Integer malesuada tellus sed nibh dictum facilisis non sit amet nibh. Vestibulum sed tincidunt ante, nec tincidunt lectus. Pellentesque id dolor ipsum. Sed efficitur tristique mauris eu tristique. Aliquam nec volutpat dolor. Praesent vitae feugiat nibh. Curabitur mollis placerat sem, ut eleifend mi. Sed sed nisl elit. Pellentesque eget elit nec arcu imperdiet imperdiet. Aliquam dictum arcu ac pharetra rutrum.
+Cras ac diam efficitur Donec iaculis bibendum suscipit. Ut egestas ligula vel orci posuere scelerisque. Nam vel elementum nibh, congue tempus sapien. Aliquam luctus ante sit amet urna vehicula hendrerit. Morbi at ante nisl. Sed euismod vel dolor in iaculis. Aliquam lacinia lorem sit amet vestibulum finibus. Nulla facilisi. Vivamus lacinia consectetur hendrerit. Integer commodo a nibh nec rhoncus. Nulla non aliquet erat. Cras vel orci a urna malesuada viverra vel quis nisi. Donec pharetra laoreet ante, vulputate volutpat ante consequat eget. Donec efficitur consequat nisi vitae volutpat. Vestibulum volutpat, odio nec sodales cursus, ligula nulla pellentesque erat, ut iaculis magna lorem non purus. Curabitur efficitur tortor et elit sodales, in lobortis risus feugiat.
+Cras hendrerit nibh non pulvinar consectetur Donec justo diam, auctor et rhoncus a, feugiat in felis. Etiam lectus est, tincidunt iaculis mi et, feugiat rutrum tellus. Ut sit amet tellus vitae nisi faucibus pulvinar non a augue. Etiam auctor porttitor mi, vitae posuere lacus pretium ac. Pellentesque sed ante magna. Proin tempor faucibus risus, vitae tincidunt arcu ultrices egestas. Aenean rutrum purus vel vulputate lobortis. Aenean auctor ipsum quam, eu molestie magna ultricies quis. Phasellus vitae diam erat. Nam at facilisis massa. Nam vulputate nec quam vel iaculis. Maecenas mauris felis, semper vel ultricies eu, interdum condimentum lacus. Mauris quis tincidunt erat, quis efficitur dolor.
+Quisque vehicula tellus eget nunc molestie Phasellus ligula tortor, sodales ac ipsum vel, lobortis lacinia eros. Maecenas et viverra enim, sit amet bibendum risus. Duis a est pulvinar, suscipit diam id, sagittis lectus. Sed vulputate est sed ipsum faucibus tempus. Morbi non varius nibh. Vestibulum vel tincidunt neque. Vestibulum pellentesque sed metus eu gravida. Donec rhoncus, quam in dictum bibendum, diam libero pretium lacus, vitae suscipit diam neque eget arcu. Pellentesque id hendrerit lorem. Curabitur fermentum purus orci, nec ullamcorper dolor consequat at. Suspendisse lectus dolor, efficitur non mollis eget, suscipit ut nisl. Quisque id ex metus. Sed lobortis venenatis lacinia. Sed at lorem leo.</description>
+    </item>
+    
+    <item>
+      <title>Nested Chapter</title>
+      <link>https://hudsonchen.github.io/docs/example-doc/nested-chapter/_index-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/example-doc/nested-chapter/_index-2/</guid>
+      <description>&lt;p&gt;This is the root of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>https://hudsonchen.github.io/docs/_index-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/docs/_index-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Author</title>
+      <link>https://hudsonchen.github.io/authors/example-author/_index-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/authors/example-author/_index-2/</guid>
+      <description>About I am a first year Ph.D. candidate at the Center of Foundational Artificial Intelligence of University College London, supervised by François-Xavier Briol and Arthur Gretton.
+My research interests center around probabilistic modelling and causal inference. I am generally interested in statistical machine learning. More specifically, I am currently working on approximate inference, kernel methods, graphical models, etc.
+Bio I obtained the bachelor&amp;rsquo;s degree from the Department of Electronic Engineering
+I have worked as a research assistant at Oxford Applied and Theoretical Machine Learning Group (OATML), advised by Yarin Gal. I have also worked as a research assistant at Statistics and Machine Learning group at the Hong Kong University of Science and Technology (HKUST), advised by Tong Zhang.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Authors</title>
+      <link>https://hudsonchen.github.io/authors/hugo-authors/_index-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/authors/hugo-authors/_index-2/</guid>
+      <description>Vestibulum vel arcu Donec interdum justo sed posuere imperdiet. Quisque nec mauris eu erat mattis egestas in vitae nisl. Sed nisl augue, congue sed quam quis, tempor tempus nibh. Pellentesque accumsan in quam a interdum. Morbi iaculis venenatis lacinia. Mauris quis nisl vitae nisi mollis placerat id vel ligula. Integer vitae arcu ac leo iaculis rhoncus id vitae dolor. Fusce quis nisl tincidunt, vulputate dolor quis, mollis massa. Donec congue velit at risus cursus, eu auctor dolor rhoncus. In porta at dolor at eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque vehicula mi at dapibus sodales. Morbi accumsan dictum maximus. In eget leo in purus commodo vestibulum. Duis et velit ex.
+Nam turpis ligula, commodo eu nunc eget, rutrum convallis dui. Integer posuere massa nibh, sit amet hendrerit lectus facilisis sed. Pellentesque ut auctor urna. Vestibulum cursus varius enim in ullamcorper. Sed sed risus ac lorem porttitor rhoncus commodo ut nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eu urna auctor, scelerisque enim nec, eleifend nisl. Vestibulum nec mauris commodo, egestas justo id, consequat leo. Mauris diam justo, sagittis vel posuere a, imperdiet vel sem. Curabitur eget arcu euismod, consectetur arcu non, posuere neque. Integer commodo dolor volutpat, gravida nunc in, tempus mauris. Suspendisse iaculis purus ut vehicula facilisis. Suspendisse vitae diam ipsum. In consequat vitae dui vitae tincidunt.
+Nullam eleifend fringilla quam. Sed faucibus efficitur metus at rhoncus. Sed non nunc mollis, cursus ipsum suscipit, blandit mi. Morbi ac interdum massa, non congue ligula. Suspendisse porta condimentum finibus. Donec lobortis eget nisl posuere vehicula. Aenean in mi mollis nisl fermentum lobortis non at lacus. Suspendisse sagittis dolor vitae vehicula gravida. Mauris in dui eu arcu viverra eleifend. Vestibulum nibh sapien, elementum et viverra a, laoreet sit amet felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Nunc magna est Donec porta:
+ Aenean aliquam sapien id fermentum hendrerit. Nullam quis augue id ante tempor suscipit sodales sed velit. Sed at nulla consectetur, sodales nisl sed, luctus velit. Morbi ornare purus at porttitor tristique.  Gravida urna in:
+ Maecenas blandit diam at massa hendrerit maximus. Sed lacinia purus ac cursus tincidunt. Maecenas posuere ante sed elit tempus porttitor. Sed vel justo quis diam convallis hendrerit ac non mi.  </description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://hudsonchen.github.io/posts/_index-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/posts/_index-2/</guid>
+      <description></description>
     </item>
     
   </channel>

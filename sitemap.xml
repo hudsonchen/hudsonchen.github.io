@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hudsonchen.github.io/docs/example-doc/chapter-1-2/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hudsonchen.github.io/docs/example-doc/chapter-1/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-1-2/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-1/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hudsonchen.github.io/docs/example-doc/chapter-2-2/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hudsonchen.github.io/docs/example-doc/chapter-2/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2-2/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/chapter-2/</loc>
@@ -17,7 +29,13 @@
     <loc>https://hudsonchen.github.io/docs/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hudsonchen.github.io/docs/example-doc/_index-2/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hudsonchen.github.io/docs/example-doc/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/_index-2/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hudsonchen.github.io/docs/example-doc/nested-chapter/</loc>
@@ -30,9 +48,17 @@
   </url><url>
     <loc>https://hudsonchen.github.io/categories/</loc>
   </url><url>
+    <loc>https://hudsonchen.github.io/docs/_index-2/</loc>
+  </url><url>
+    <loc>https://hudsonchen.github.io/authors/example-author/_index-2/</loc>
+  </url><url>
     <loc>https://hudsonchen.github.io/authors/example-author/</loc>
   </url><url>
+    <loc>https://hudsonchen.github.io/authors/hugo-authors/_index-2/</loc>
+  </url><url>
     <loc>https://hudsonchen.github.io/authors/hugo-authors/</loc>
+  </url><url>
+    <loc>https://hudsonchen.github.io/posts/_index-2/</loc>
   </url><url>
     <loc>https://hudsonchen.github.io/posts/</loc>
   </url><url>
