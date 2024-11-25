@@ -44,6 +44,9 @@
     <loc>https://hudsonchen.github.io/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://hudsonchen.github.io/homepage/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://hudsonchen.github.io/authors/</loc>
   </url><url>
     <loc>https://hudsonchen.github.io/categories/</loc>
@@ -58,10 +61,8 @@
   </url><url>
     <loc>https://hudsonchen.github.io/authors/hugo-authors/</loc>
   </url><url>
-    <loc>https://hudsonchen.github.io/posts/_index-2/</loc>
-  </url><url>
-    <loc>https://hudsonchen.github.io/posts/</loc>
-  </url><url>
     <loc>https://hudsonchen.github.io/tags/</loc>
+  </url><url>
+    <loc>https://hudsonchen.github.io/talks/</loc>
   </url>
 </urlset>

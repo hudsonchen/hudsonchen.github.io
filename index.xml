@@ -104,6 +104,15 @@ Quisque vehicula tellus eget nunc molestie Phasellus ligula tortor, sodales ac i
     </item>
     
     <item>
+      <title></title>
+      <link>https://hudsonchen.github.io/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hudsonchen.github.io/homepage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Docs</title>
       <link>https://hudsonchen.github.io/docs/_index-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -139,12 +148,12 @@ Nunc magna est Donec porta:
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>https://hudsonchen.github.io/posts/_index-2/</link>
+      <title>Talks</title>
+      <link>https://hudsonchen.github.io/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hudsonchen.github.io/posts/_index-2/</guid>
-      <description></description>
+      <guid>https://hudsonchen.github.io/talks/</guid>
+      <description>21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides </description>
     </item>
     
   </channel>
