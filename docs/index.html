@@ -29,6 +29,120 @@
 
 
 
+<style>
+   
+  .max-w-screen-xl {
+    max-width: 110rem;
+  }
+
+  .profile-sidebar {
+    display: none;
+  }
+
+  .profile-sidebar-inner {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-avatar {
+    width: 10rem;
+    height: 10rem;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 9999px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .profile-sidebar-card {
+    width: min(14rem, 100%);
+    margin-right: auto;
+    min-height: 20rem;
+  }
+
+  .profile-right-sidebar {
+    display: none;
+  }
+
+  .profile-right-sidebar-inner {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .profile-sidebar {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 4rem;
+      width: 22vw;
+      height: calc(100vh - 4rem);
+      z-index: 40;
+    }
+
+    .profile-right-sidebar {
+      display: block;
+      position: fixed;
+      right: 0;
+      top: 4rem;
+      width: 22vw;
+      height: calc(100vh - 4rem);
+      z-index: 35;
+    }
+
+    .profile-main-offset {
+      padding-left: 22vw;
+      padding-right: 22vw;
+    }
+
+    .profile-footer-offset {
+      padding-left: 22vw;
+      padding-right: 22vw;
+    }
+
+    .profile-main-offset .max-w-screen-xl {
+      max-width: 100%;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .profile-main-offset .max-w-screen-xl > div {
+      width: 100%;
+    }
+
+    .profile-main-offset .mx-auto {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .profile-main-offset .lg\:w-3\/4 {
+      width: 100% !important;
+    }
+
+    .profile-main-offset .lg\:w-3\/4.mx-auto {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .profile-main-offset .px-6,
+    .profile-main-offset .md\:px-8,
+    .profile-main-offset .xl\:px-12 {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+
+    .profile-main-offset .pl-scrollbar {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+</style>
 
 
 <meta name="description"
@@ -149,7 +263,67 @@
 </script>
 </div>
   </header>
-  <main class="flex-grow pt-16">
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+<aside class="profile-sidebar pl-scrollbar">
+  <div class="profile-sidebar-inner">
+    <div class="profile-sidebar-card bg-primary-bg rounded p-5">
+      
+      <img src="https://hudsonchen.github.io/photos/personal_image.JPEG" alt="Zonghao (Hudson) Chen" class="profile-avatar" />
+      
+      <h2 class="text-xl font-bold text-primary-text text-center mt-4">Zonghao (Hudson) Chen</h2>
+      
+      <p class="text-primary-text text-center mt-2">Ph.D. candidate, University College London</p>
+      
+      
+      <p class="text-secondary-text text-center mt-3 break-words">zonghao.chen.22@ucl.ac.uk</p>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="text-center mt-4">
+        <a href="https://scholar.google.com/citations?user=yivqCH8AAAAJ&amp;hl=en" class="text-eureka hover:text-eureka underline" aria-label="google-scholar" target="_blank" rel="noopener noreferrer">
+          Google Scholar
+        </a>
+      </div>
+      
+      
+      
+      
+    </div>
+  </div>
+</aside><aside class="profile-right-sidebar pl-scrollbar" aria-hidden="true">
+    <div class="profile-right-sidebar-inner">
+      <div class="profile-sidebar-card bg-primary-bg rounded p-5"></div>
+    </div>
+  </aside>
+
+  <main class="flex-grow pt-16 profile-main-offset">
     <div class="pl-scrollbar">
       <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
 <article class="mx-6 my-8">
@@ -259,7 +433,7 @@
     </div>
     
   </main>
-  <footer class="pl-scrollbar">
+  <footer class="pl-scrollbar profile-footer-offset">
     <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
     <p class="text-sm text-tertiary-text">&copy; 2022 WANG Chucheng
  &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>

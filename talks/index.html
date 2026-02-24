@@ -29,10 +29,124 @@
 
 
 
+<style>
+   
+  .max-w-screen-xl {
+    max-width: 110rem;
+  }
+
+  .profile-sidebar {
+    display: none;
+  }
+
+  .profile-sidebar-inner {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-avatar {
+    width: 10rem;
+    height: 10rem;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 9999px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .profile-sidebar-card {
+    width: min(14rem, 100%);
+    margin-right: auto;
+    min-height: 20rem;
+  }
+
+  .profile-right-sidebar {
+    display: none;
+  }
+
+  .profile-right-sidebar-inner {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .profile-sidebar {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 4rem;
+      width: 22vw;
+      height: calc(100vh - 4rem);
+      z-index: 40;
+    }
+
+    .profile-right-sidebar {
+      display: block;
+      position: fixed;
+      right: 0;
+      top: 4rem;
+      width: 22vw;
+      height: calc(100vh - 4rem);
+      z-index: 35;
+    }
+
+    .profile-main-offset {
+      padding-left: 22vw;
+      padding-right: 22vw;
+    }
+
+    .profile-footer-offset {
+      padding-left: 22vw;
+      padding-right: 22vw;
+    }
+
+    .profile-main-offset .max-w-screen-xl {
+      max-width: 100%;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .profile-main-offset .max-w-screen-xl > div {
+      width: 100%;
+    }
+
+    .profile-main-offset .mx-auto {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .profile-main-offset .lg\:w-3\/4 {
+      width: 100% !important;
+    }
+
+    .profile-main-offset .lg\:w-3\/4.mx-auto {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .profile-main-offset .px-6,
+    .profile-main-offset .md\:px-8,
+    .profile-main-offset .xl\:px-12 {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+
+    .profile-main-offset .pl-scrollbar {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+</style>
 
 
 <meta name="description"
-  content="21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides  6th Feburary 2025, Imperial College London, CSML reading group (London, UK). Slides  14th March 2025, University College London, Jump Trading/ELLIS CSML Seminar Series (London, UK). Slides  21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). Slides  22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). Slides  23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). Slides  7th Aug 2025, The China conference on Scientific Machine Learning (Beijing, China). Slides  22nd Oct 2025, Workshop on kernels, flows and sampling (Newcastle, UK). Slides  30th Oct 2025, UCL Statistical Science Seminars  (London, UK). Slides  14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). Slides  15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). Slides ">
+  content="22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). Slides  15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). Slides  30th Oct 2025, UCL Statistical Science Seminars  (London, UK). Slides  22nd Oct 2025, Workshop on kernels, flows and sampling (Newcastle, UK). Slides  7th Aug 2025, The China conference on Scientific Machine Learning (Beijing, China). Slides  31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). Slides  23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). Slides  21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). Slides  14th March 2025, University College London, Jump Trading/ELLIS CSML Seminar Series (London, UK). Slides  6th Feburary 2025, Imperial College London, CSML reading group (London, UK). Slides  21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides ">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,7 +178,7 @@
         "@type": "Person",
         "name": "Zonghao Chen",
         },
-    "description": "21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides  6th Feburary 2025, Imperial College London, CSML reading group (London, UK). Slides  14th March 2025, University College London, Jump Trading\/ELLIS CSML Seminar Series (London, UK). Slides  21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). Slides  22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). Slides  23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). Slides  7th Aug 2025, The China conference on Scientific Machine Learning (Beijing, China). Slides  22nd Oct 2025, Workshop on kernels, flows and sampling (Newcastle, UK). Slides  30th Oct 2025, UCL Statistical Science Seminars  (London, UK). Slides  14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). Slides  15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). Slides "
+    "description": "22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). Slides  15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). Slides  30th Oct 2025, UCL Statistical Science Seminars  (London, UK). Slides  22nd Oct 2025, Workshop on kernels, flows and sampling (Newcastle, UK). Slides  7th Aug 2025, The China conference on Scientific Machine Learning (Beijing, China). Slides  31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). Slides  23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). Slides  21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). Slides  14th March 2025, University College London, Jump Trading\/ELLIS CSML Seminar Series (London, UK). Slides  6th Feburary 2025, Imperial College London, CSML reading group (London, UK). Slides  21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides "
 }
 </script><meta property="og:title" content="Talks | Zonghao Chen" />
 <meta property="og:type" content="article" />
@@ -76,7 +190,7 @@
 
 
 
-<meta property="og:description" content="21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides  6th Feburary 2025, Imperial College London, CSML reading group (London, UK). Slides  14th March 2025, University College London, Jump Trading/ELLIS CSML Seminar Series (London, UK). Slides  21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). Slides  22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). Slides  23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). Slides  7th Aug 2025, The China conference on Scientific Machine Learning (Beijing, China). Slides  22nd Oct 2025, Workshop on kernels, flows and sampling (Newcastle, UK). Slides  30th Oct 2025, UCL Statistical Science Seminars  (London, UK). Slides  14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). Slides  15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). Slides " />
+<meta property="og:description" content="22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). Slides  15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). Slides  30th Oct 2025, UCL Statistical Science Seminars  (London, UK). Slides  22nd Oct 2025, Workshop on kernels, flows and sampling (Newcastle, UK). Slides  7th Aug 2025, The China conference on Scientific Machine Learning (Beijing, China). Slides  31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). Slides  23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). Slides  22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). Slides  21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). Slides  14th March 2025, University College London, Jump Trading/ELLIS CSML Seminar Series (London, UK). Slides  6th Feburary 2025, Imperial College London, CSML reading group (London, UK). Slides  21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). Slides " />
 
 
 
@@ -164,40 +278,100 @@
 </script>
 </div>
   </header>
-  <main class="flex-grow pt-16">
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+<aside class="profile-sidebar pl-scrollbar">
+  <div class="profile-sidebar-inner">
+    <div class="profile-sidebar-card bg-primary-bg rounded p-5">
+      
+      <img src="https://hudsonchen.github.io/photos/personal_image.JPEG" alt="Zonghao (Hudson) Chen" class="profile-avatar" />
+      
+      <h2 class="text-xl font-bold text-primary-text text-center mt-4">Zonghao (Hudson) Chen</h2>
+      
+      <p class="text-primary-text text-center mt-2">Ph.D. candidate, University College London</p>
+      
+      
+      <p class="text-secondary-text text-center mt-3 break-words">zonghao.chen.22@ucl.ac.uk</p>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="text-center mt-4">
+        <a href="https://scholar.google.com/citations?user=yivqCH8AAAAJ&amp;hl=en" class="text-eureka hover:text-eureka underline" aria-label="google-scholar" target="_blank" rel="noopener noreferrer">
+          Google Scholar
+        </a>
+      </div>
+      
+      
+      
+      
+    </div>
+  </div>
+</aside><aside class="profile-right-sidebar pl-scrollbar" aria-hidden="true">
+    <div class="profile-right-sidebar-inner">
+      <div class="profile-sidebar-card bg-primary-bg rounded p-5"></div>
+    </div>
+  </aside>
+
+  <main class="flex-grow pt-16 profile-main-offset">
     <div class="pl-scrollbar">
       <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
   <div class="content">
     <h1>Talks</h1>
     <div class="page-content">
-      <li>21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). <a href="../papers/CBQ_slides.pdf">Slides</a>
+      <li>22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
 </li>
-<li>6th Feburary 2025, Imperial College London, <a href="https://imperialcollegelondon.github.io/csml-reading-group/">CSML reading group</a> (London, UK). <a href="../papers/NKQ_slides.pdf">Slides</a>
+<li>15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
 </li>
-<li>14th March 2025, University College London, <a href="https://ucl-ellis.github.io/jt_csml_seminar_home/">Jump Trading/ELLIS CSML Seminar Series</a> (London, UK). <a href="../papers/NKQ_slides.pdf">Slides</a>
-</li>
-<li>21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
-</li>
-<li>22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
-</li>
-<li>23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
-</li>
-<li>31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). <a href="../papers/DrMMD_slides.pdf">Slides</a>
-</li>
-<li>7th Aug 2025, <a href="https://c2sml.cn/conference_en.html"> The China conference on Scientific Machine Learning</a> 
- (Beijing, China). <a href="../papers/DrMMD_slides.pdf">Slides</a>
-</li>
-<li>22nd Oct 2025, <a href="https://sites.google.com/view/kernels-flows-and-sampling/home"> Workshop on kernels, flows and sampling</a> 
- (Newcastle, UK). <a href="../papers/NPIV_DNN_slides.pdf">Slides</a>
+<li>14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). <a href="../papers/NPIV_DNN_slides.pdf">Slides</a>
 </li>
 <li>30th Oct 2025, <a href="https://www.ucl.ac.uk/mathematical-physical-sciences/statistics/department-information/statistical-science-seminars"> UCL Statistical Science Seminars </a> 
  (London, UK). <a href="../papers/NPIV_DNN_slides.pdf">Slides</a>
 </li>
-<li>14th Dec 2025, Shanghai University of Finance and Economics, Department of Statistic and Data Science (Shanghai, China). <a href="../papers/NPIV_DNN_slides.pdf">Slides</a>
+<li>22nd Oct 2025, <a href="https://sites.google.com/view/kernels-flows-and-sampling/home"> Workshop on kernels, flows and sampling</a> 
+ (Newcastle, UK). <a href="../papers/NPIV_DNN_slides.pdf">Slides</a>
 </li>
-<li>15th Dec 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
+<li>7th Aug 2025, <a href="https://c2sml.cn/conference_en.html"> The China conference on Scientific Machine Learning</a> 
+ (Beijing, China). <a href="../papers/DrMMD_slides.pdf">Slides</a>
 </li>
-<li>22nd Dec 2025, Fudan University, Department of Mathematics (Shanghai, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
+<li>31st July 2025, Institute of Statistical Mathematics, (Tokyo, Japan). <a href="../papers/DrMMD_slides.pdf">Slides</a>
+</li>
+<li>23rd May 2025, Tsinghua University, Department of Statistic and Data Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
+</li>
+<li>22nd May 2025, Peking University, School of Mathematical Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
+</li>
+<li>21th May 2025, Peking University, School of Intelligence and Science (Beijing, China). <a href="../papers/NPIVO_slides.pdf">Slides</a>
+</li>
+<li>14th March 2025, University College London, <a href="https://ucl-ellis.github.io/jt_csml_seminar_home/">Jump Trading/ELLIS CSML Seminar Series</a> (London, UK). <a href="../papers/NKQ_slides.pdf">Slides</a>
+</li>
+<li>6th Feburary 2025, Imperial College London, <a href="https://imperialcollegelondon.github.io/csml-reading-group/">CSML reading group</a> (London, UK). <a href="../papers/NKQ_slides.pdf">Slides</a>
+</li>
+<li>21st November 2024, Newcastle University, Workshop on Next Generational Extrapolation Methods (Newcastle, UK). <a href="../papers/CBQ_slides.pdf">Slides</a>
 </li>
     </div>
   </div>
@@ -206,7 +380,7 @@
     </div>
     
   </main>
-  <footer class="pl-scrollbar">
+  <footer class="pl-scrollbar profile-footer-offset">
     <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
     <p class="text-sm text-tertiary-text">&copy; 2022 WANG Chucheng
  &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
